@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "gpio.h": "c",
+    "charconv": "c",
+    "spi_master.h": "c",
+    "spi_common.h": "c",
+    "spi_types.h": "c",
+    "cmath": "c",
+    "rs485.h": "c",
+    "uart.h": "c",
+    "regex": "c",
+    "sstream": "c",
+    "strstream": "c"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
+}

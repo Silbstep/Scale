@@ -1,0 +1,33 @@
+﻿Build started 03/04/2015 13:41:40.
+     1>Project "C:\Users\raymond.bienek.FTDI\Desktop\TN153\FT800 Single JPEG Viewer\Project\Msvc_win32\FT_single_jpg_viewer\FT_single_jpg.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\Hdr\ /I..\..\..\\Hdr\Msvc_win32\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\Src\FT_CoPro_Cmds.c ..\..\..\Src\FT_Gpu_Hal.c ..\..\..\Src\Ft_single_jpg_viewer.c
+         Ft_single_jpg_viewer.c
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_single_jpg_viewer.c(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_single_jpg_viewer.c(288): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_single_jpg_viewer.c(381): warning C4244: '=' : conversion from 'double' to 'ft_uint16_t', possible loss of data
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_single_jpg_viewer.c(382): warning C4244: '=' : conversion from 'double' to 'ft_uint16_t', possible loss of data
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_single_jpg_viewer.c(409): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_single_jpg_viewer.c(426): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+         FT_Gpu_Hal.c
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_gpu_hal.c(638): warning C4090: 'function' : different 'const' qualifiers
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_gpu_hal.c(663): warning C4090: 'function' : different 'const' qualifiers
+         FT_CoPro_Cmds.c
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_copro_cmds.c(7): warning C4013: 'Ft_App_WrCoCmd_Buffer' undefined; assuming extern returning int
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_copro_cmds.c(22): warning C4013: 'Ft_App_WrCoStr_Buffer' undefined; assuming extern returning int
+         Generating Code...
+     1>c:\users\raymond.bienek.ftdi\desktop\tn153\ft800 single jpeg viewer\src\ft_gpu_hal.c(236): warning C4716: 'Ft_Gpu_Hal_TransferString' : must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\raymond.bienek.FTDI\Desktop\TN153\FT800 Single JPEG Viewer\Project\Msvc_win32\FT_single_jpg_viewer\Debug\FT_single_jpg_viewer.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\Bin\Msvc_win32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libMPSSE.a /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\raymond.bienek.FTDI\Desktop\TN153\FT800 Single JPEG Viewer\Project\Msvc_win32\FT_single_jpg_viewer\Debug\FT_single_jpg_viewer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\raymond.bienek.FTDI\Desktop\TN153\FT800 Single JPEG Viewer\Project\Msvc_win32\FT_single_jpg_viewer\Debug\FT_single_jpg_viewer.lib" /MACHINE:X86 Debug\FT_CoPro_Cmds.obj
+         Debug\FT_Gpu_Hal.obj
+         Debug\Ft_single_jpg_viewer.obj
+         ..\..\..\Bin\Msvc_win32\ftd2xx.lib
+         FT_single_jpg.vcxproj -> C:\Users\raymond.bienek.FTDI\Desktop\TN153\FT800 Single JPEG Viewer\Project\Msvc_win32\FT_single_jpg_viewer\Debug\FT_single_jpg_viewer.exe
+     1>Done Building Project "C:\Users\raymond.bienek.FTDI\Desktop\TN153\FT800 Single JPEG Viewer\Project\Msvc_win32\FT_single_jpg_viewer\FT_single_jpg.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52

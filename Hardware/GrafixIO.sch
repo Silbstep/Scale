@@ -1,0 +1,217 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2000 1900 0    50   Input ~ 0
+SDA
+Text HLabel 2000 2000 0    50   Input ~ 0
+SCL
+$Comp
+L Interface:XRA1201 U?
+U 1 1 62FDDCFD
+P 4000 1900
+F 0 "U?" H 4600 2250 60  0000 C CNN
+F 1 "XRA1201" H 4450 2150 60  0000 C CNN
+F 2 "Package_DFN_QFN:XRA1403IL24-F" H 4800 2140 60  0001 C CNN
+F 3 "d:\\Users\\Designs\\Datasheets\\XRA1201.pdf" H 4100 2000 60  0001 C CNN
+F 4 "XRA1201IL24TR-F" H 4000 1900 50  0001 C CNN "MPN"
+F 5 "MaxLinear, Inc." H 4000 1900 50  0001 C CNN "Manufacturer"
+	1    4000 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62FE497A
+P 3050 1400
+F 0 "C?" H 2850 1400 50  0000 L CNN
+F 1 "100nF" H 2800 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3050 1400 50  0001 C CNN
+F 3 "~" H 3050 1400 50  0001 C CNN
+	1    3050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62FE4980
+P 3050 1550
+F 0 "#PWR?" H 3050 1300 50  0001 C CNN
+F 1 "GND" H 3150 1550 50  0000 C CNN
+F 2 "" H 3050 1550 50  0001 C CNN
+F 3 "" H 3050 1550 50  0001 C CNN
+	1    3050 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1500 3050 1550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62FE4987
+P 3050 1200
+F 0 "#PWR?" H 3050 1050 50  0001 C CNN
+F 1 "+3V3" H 3065 1373 50  0000 C CNN
+F 2 "" H 3050 1200 50  0001 C CNN
+F 3 "" H 3050 1200 50  0001 C CNN
+	1    3050 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1300 3050 1300
+Wire Wire Line
+	3050 1200 3050 1300
+Connection ~ 3050 1300
+Wire Wire Line
+	3300 1300 3300 1500
+Wire Wire Line
+	2700 1900 2150 1900
+Wire Wire Line
+	2700 2000 2050 2000
+$Comp
+L Interface:XRA1201 U?
+U 1 1 62FEC735
+P 4000 4550
+F 0 "U?" H 4600 4900 60  0000 C CNN
+F 1 "XRA1201" H 4450 4800 60  0000 C CNN
+F 2 "Package_DFN_QFN:XRA1403IL24-F" H 4800 4790 60  0001 C CNN
+F 3 "d:\\Users\\Designs\\Datasheets\\XRA1201.pdf" H 4100 4650 60  0001 C CNN
+F 4 "XRA1201IL24TR-F" H 4000 4550 50  0001 C CNN "MPN"
+F 5 "MaxLinear, Inc." H 4000 4550 50  0001 C CNN "Manufacturer"
+	1    4000 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62FEC73B
+P 3050 4050
+F 0 "C?" H 2850 4050 50  0000 L CNN
+F 1 "100nF" H 2800 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3050 4050 50  0001 C CNN
+F 3 "~" H 3050 4050 50  0001 C CNN
+	1    3050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62FEC741
+P 3050 4200
+F 0 "#PWR?" H 3050 3950 50  0001 C CNN
+F 1 "GND" H 3150 4200 50  0000 C CNN
+F 2 "" H 3050 4200 50  0001 C CNN
+F 3 "" H 3050 4200 50  0001 C CNN
+	1    3050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4150 3050 4200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62FEC748
+P 3050 3850
+F 0 "#PWR?" H 3050 3700 50  0001 C CNN
+F 1 "+3V3" H 3065 4023 50  0000 C CNN
+F 2 "" H 3050 3850 50  0001 C CNN
+F 3 "" H 3050 3850 50  0001 C CNN
+	1    3050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3950 3050 3950
+Wire Wire Line
+	3050 3850 3050 3950
+Connection ~ 3050 3950
+Wire Wire Line
+	3300 3950 3300 4150
+$Comp
+L power:GND #PWR?
+U 1 1 62FECD63
+P 3300 3400
+AR Path="/62FC98BB/62FECD63" Ref="#PWR?"  Part="1" 
+AR Path="/62FDD975/62FECD63" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3300 3150 50  0001 C CNN
+F 1 "GND" H 3400 3400 50  0000 C CNN
+F 2 "" H 3300 3400 50  0001 C CNN
+F 3 "" H 3300 3400 50  0001 C CNN
+	1    3300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62FED01D
+P 3300 6050
+AR Path="/62FC98BB/62FED01D" Ref="#PWR?"  Part="1" 
+AR Path="/62FDD975/62FED01D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3300 5800 50  0001 C CNN
+F 1 "GND" H 3400 6050 50  0000 C CNN
+F 2 "" H 3300 6050 50  0001 C CNN
+F 3 "" H 3300 6050 50  0001 C CNN
+	1    3300 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5950 3300 6000
+Wire Wire Line
+	3300 3300 3300 3350
+Wire Wire Line
+	3300 3350 2600 3350
+Wire Wire Line
+	2600 3350 2600 3000
+Wire Wire Line
+	2600 3000 2700 3000
+Connection ~ 3300 3350
+Wire Wire Line
+	3300 3350 3300 3400
+Wire Wire Line
+	2700 2900 2600 2900
+Wire Wire Line
+	2600 2900 2600 3000
+Connection ~ 2600 3000
+Wire Wire Line
+	2700 2800 2600 2800
+Wire Wire Line
+	2600 2800 2600 2900
+Connection ~ 2600 2900
+Wire Wire Line
+	3300 6000 2600 6000
+Wire Wire Line
+	2600 6000 2600 5650
+Wire Wire Line
+	2600 5550 2700 5550
+Connection ~ 3300 6000
+Wire Wire Line
+	3300 6000 3300 6050
+Wire Wire Line
+	2700 5650 2600 5650
+Connection ~ 2600 5650
+Wire Wire Line
+	2600 5650 2600 5550
+Wire Wire Line
+	2700 5450 2600 5450
+Wire Wire Line
+	2600 5450 2600 3950
+Wire Wire Line
+	2600 3950 3050 3950
+Wire Wire Line
+	2700 4550 2150 4550
+Wire Wire Line
+	2150 4550 2150 1900
+Connection ~ 2150 1900
+Wire Wire Line
+	2150 1900 2000 1900
+Wire Wire Line
+	2700 4650 2050 4650
+Wire Wire Line
+	2050 4650 2050 2000
+Connection ~ 2050 2000
+Wire Wire Line
+	2050 2000 2000 2000
+$EndSCHEMATC
